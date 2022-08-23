@@ -7,6 +7,14 @@
         "version": 2,
         "index": 20
       }
+    ],
+    "geekster-easy-problem/add-if-digit.java": [
+      {
+        "id": "5e365b71-6a2e-4a98-b27a-34736735b870",
+        "line": 7,
+        "version": 21,
+        "index": 301
+      }
     ]
   }
 }
