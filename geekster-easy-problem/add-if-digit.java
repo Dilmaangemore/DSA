@@ -1,4 +1,4 @@
-/******Add if a digit **************
+     /******Add if a digit **************
 Take in a character as an input from the user
 
 a. If the entered character is a digit, then add 100 to the value of the digit entered and print the final answer.
