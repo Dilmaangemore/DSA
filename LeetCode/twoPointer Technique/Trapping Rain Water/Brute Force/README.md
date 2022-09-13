@@ -10,4 +10,4 @@ Traverse the array from start to that index and find the maximum height (a) and
 Traverse the array from the current index to the end, and find the maximum height (b).
 The amount of water that will be stored in this column is min(a,b) – array[i], add this value to the total amount of water stored
 Print the total amount of water stored.
-Below is the implementation of the above approach.
+Below is the implementation of the above approach.  
