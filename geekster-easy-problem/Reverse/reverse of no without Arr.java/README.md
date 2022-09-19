@@ -4,28 +4,7 @@ Take a number n greater than or equal to zero as an integer input.
 
 Then you will be given n digits as integer inputs and you have to form a number from it. Print the number formed.
 
-Then you have to reverse the digits of this number. And then print the final reversed number in the next line.
 
-
-Input Format
-
-For each test case,
-
-n will be given as an integer input,
-
-then you will be given n digits as integer inputs in each line.
-
-Constraints
-
-1<=n<=8
-
-0<=Digit input<=9
-
-Output Format
-
-Print the number formed from the digits in the first line.
-
-Print the reversed number formed in the second line.
 
 Sample Input 0
 
