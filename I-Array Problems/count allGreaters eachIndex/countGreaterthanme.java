@@ -24,3 +24,38 @@ public class Solution {
        
     }
 }
+/*************************** Method -2 **************************
+
+ *****************************************************/
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+    public static int countGreater(int[] arr, int target){
+        int count = 0;
+        for(int idx = 0; idx < arr.length; idx++){
+            if(arr[idx] > target) count++;
+        }
+        return count;
+    }
+    
+    public static void solve(int[] arr){
+        for(int idx = 0; idx < arr.length; idx++){
+            int count = countGreater(arr, arr[idx]);
+            System.out.print(count + " ");
+        }
+    }
+    
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        int size = scn.nextInt();
+        int[] arr = new int[size];
+        
+        for(int idx = 0; idx < arr.length; idx++){
+            arr[idx] = scn.nextInt();
+        }
+        
+        solve(arr);
+    }
+}
